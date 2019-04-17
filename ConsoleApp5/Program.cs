@@ -12,6 +12,15 @@ namespace ConsoleApp5
         {
             new GenerateList().Run(57);
         }
+        class GenerateList
+        {
+            const int LEN = 100;
+            ArrayList ListQ;
+            public void Run(int AddUpToNumber)
+            {
+                Random r = new Random();
+            }
+           }
         }
     }
 }
